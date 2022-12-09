@@ -12,6 +12,7 @@ setup(
     url='https://github.com/mugiseyebrows/grep-imports',
     description="Greps sources for imports and prints dependencies as list of package names",
     long_description = long_description,
+    long_description_content_type='text/markdown',
     install_requires = ['importlib_metadata'],
     entry_points={
         'console_scripts': [
